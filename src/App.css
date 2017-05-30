@@ -1,0 +1,32 @@
+.App {
+  /*text-align: center;*/
+}
+
+.Nav {
+  display: flex;
+  color: white;
+  height: 80px;
+  background: #FF613D;
+}
+.nav-ul{
+  list-style: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav-ul-header {
+  flex: 3;
+}
+.nav-weather-button {
+  border-radius: 3px;
+  height: 30px;
+  margin: 10px;
+  background: #2EBA54;
+  color: white;
+}
+.nav-weather-input {
+  border-radius: 3px;
+  height: 24px;
+  margin: 10px;
+}
