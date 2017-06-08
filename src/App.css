@@ -1,32 +1,30 @@
-.App {
+body {
   /*text-align: center;*/
+  background: #E2EFDE;
 }
-
+button{
+  margin: 0 10px 0 10px;
+}
 .Nav {
-  display: flex;
-  color: white;
+  color: C97064;
   height: 80px;
-  background: #FF613D;
+  background: #AFD0BF;
 }
 .nav-ul{
+  display: flex;
   list-style: none;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.nav-ul-header {
-  flex: 3;
+.nav-ul-header{
+  width: 50%;
 }
-.nav-weather-button {
-  border-radius: 3px;
-  height: 30px;
-  margin: 10px;
-  background: #2EBA54;
-  color: white;
-}
-.nav-weather-input {
-  border-radius: 3px;
-  height: 24px;
-  margin: 10px;
+.nav-weather-form{
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+
 }
